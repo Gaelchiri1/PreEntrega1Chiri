@@ -56,3 +56,16 @@ body {
       font-size: 20px;
       margin-top: 20px;
     }
+
+    /* styles.css */
+.producto {
+  text-align: center;
+}
+
+.producto img {
+  max-width: 200px;
+}
+
+.producto p {
+  font-weight: bold;
+}

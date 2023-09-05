@@ -1,6 +1,6 @@
 function calcularTotal() {
-  const medialunaPrecio = 2.5;
-  const cafeConLechePrecio = 3.0;
+  const medialunaPrecio = 650;
+  const cafeConLechePrecio = 250;
 
   const cantidadMedialunas = parseInt(document.getElementById("medialunas").value);
   const cantidadCafeConLeche = parseInt(document.getElementById("cafeConLeche").value);
@@ -36,3 +36,15 @@ function cargarOpciones() {
 }
 
 cargarOpciones();
+
+
+function agregarComentario() {
+  const comentario = document.getElementById("comentario").value;
+  const calificacion = document.getElementById("calificacion").value;
+}
+
+
+function procesarPago() {
+  const metodoPago = document.getElementById("metodoPago").value;
+  alert(`Pago procesado con ${metodoPago}`);
+}
